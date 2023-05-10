@@ -1,0 +1,10 @@
+// My theme colors
+
+
+// scss-docs-start theme-color-variables
+$primary:       $blue !default;
+// scss-docs-end theme-color-variables
+
+
+// Import bootstrap 5
+@import "../node_modules/bootstrap/scss/bootstrap.scss"
