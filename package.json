@@ -18,5 +18,8 @@
   "homepage": "https://github.com/J2ZROMERO/ortfolio#readme",
   "devDependencies": {
     "sass": "^1.62.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.3"
   }
 }
