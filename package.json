@@ -1,0 +1,22 @@
+{
+  "name": "ortfolio",
+  "version": "1.0.0",
+  "description": "<a name=\"readme-top\"></a>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/J2ZROMERO/ortfolio.git"
+  },
+  "author": "Jose Zepeda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/J2ZROMERO/ortfolio/issues"
+  },
+  "homepage": "https://github.com/J2ZROMERO/ortfolio#readme",
+  "devDependencies": {
+    "sass": "^1.62.1"
+  }
+}
