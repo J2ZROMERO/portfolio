@@ -3,3 +3,8 @@
 // IMPORT THE COMPONENTS
 
 // IMPORT THE SECTIONS
+@use './sections/presentation';
+
+body,html {
+    height: 100vh;   
+}

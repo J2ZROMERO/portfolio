@@ -9,6 +9,8 @@ $quaternary: #172B4D;
 $quinary: #FFFFFF;
 // scss-docs-end theme-color-variables
 
+//Color links
+$link-color:       $quaternary;
 
 // Import bootstrap 5
 @import "../node_modules/bootstrap/scss/bootstrap.scss"

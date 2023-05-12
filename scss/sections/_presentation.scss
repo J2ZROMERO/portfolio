@@ -1,0 +1,30 @@
+@use '../custom.scss' as *;
+@use '../components/mixins' as *;
+
+.presentation {
+    padding-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    width: 100%;
+    align-items: center;
+    background-image: url("../../assets/img/background.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    &__greeting {
+        span {
+            color: $primary;
+        }
+    }
+    &__speach {
+        width: 60%;
+        font-weight: 350;
+        font-size: 1.5rem;
+    }
+    &__icons {
+        @include list-inline;
+        font-size: 1.1rem;
+    }
+    
+}

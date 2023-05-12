@@ -68,8 +68,8 @@
   --bs-border-radius-xl: 1rem;
   --bs-border-radius-2xl: 2rem;
   --bs-border-radius-pill: 50rem;
-  --bs-link-color: #36B37E;
-  --bs-link-hover-color: #2b8f65;
+  --bs-link-color: #172B4D;
+  --bs-link-hover-color: #12223e;
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fff3cd;
 }
@@ -10718,6 +10718,35 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+.presentation {
+  padding-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  width: 100%;
+  align-items: center;
+  background-image: url("../../assets/img/background.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.presentation__greeting span {
+  color: #36B37E;
+}
+.presentation__speach {
+  width: 60%;
+  font-weight: 350;
+  font-size: 1.5rem;
+}
+.presentation__icons {
+  padding-left: 0;
+  list-style: none;
+  font-size: 1.1rem;
+}
+
+body, html {
+  height: 100vh;
 }
 
 /*# sourceMappingURL=style.css.map */
