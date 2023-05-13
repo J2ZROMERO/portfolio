@@ -12,5 +12,10 @@ $quinary: #FFFFFF;
 //Color links
 $link-color:       $quaternary;
 
+// $navbar-light-color:              red;
+$navbar-light-hover-color:          $quaternary;
+// $navbar-light-active-color:         ;
+// $navbar-light-disabled-color:       rgba($black, .3) !default;
+
 // Import bootstrap 5
 @import "../node_modules/bootstrap/scss/bootstrap.scss"

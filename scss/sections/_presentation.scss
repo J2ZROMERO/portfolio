@@ -12,6 +12,14 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    
+    @include media-breakpoint-down(sm) {
+        padding-top: 8rem;
+    }
+    @include media-breakpoint-down(md) {
+        padding-top: 6rem;
+    }
+    
     &__greeting {
         span {
             color: $primary;
@@ -24,7 +32,20 @@
     }
     &__icons {
         @include list-inline;
-        font-size: 1.1rem;
+        font-size: 1.2rem;
+        &__list--style {
+            a{
+                i:hover{
+                    color: $primary;
+                    scale: 1.5;
+                }
+            }
+    
+            
+            
+            
+        }
     }
+    
     
 }

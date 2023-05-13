@@ -3687,7 +3687,7 @@ textarea.form-control-lg {
   --bs-navbar-padding-x: 0;
   --bs-navbar-padding-y: 0.5rem;
   --bs-navbar-color: rgba(0, 0, 0, 0.55);
-  --bs-navbar-hover-color: rgba(0, 0, 0, 0.7);
+  --bs-navbar-hover-color: #172B4D;
   --bs-navbar-disabled-color: rgba(0, 0, 0, 0.3);
   --bs-navbar-active-color: rgba(0, 0, 0, 0.9);
   --bs-navbar-brand-padding-y: 0.3125rem;
@@ -10731,6 +10731,16 @@ textarea.form-control-lg {
   background-size: cover;
   background-position: center;
 }
+@media (max-width: 575.98px) {
+  .presentation {
+    padding-top: 8rem;
+  }
+}
+@media (max-width: 767.98px) {
+  .presentation {
+    padding-top: 6rem;
+  }
+}
 .presentation__greeting span {
   color: #36B37E;
 }
@@ -10742,7 +10752,11 @@ textarea.form-control-lg {
 .presentation__icons {
   padding-left: 0;
   list-style: none;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
+}
+.presentation__icons__list--style a i:hover {
+  color: #36B37E;
+  scale: 1.5;
 }
 
 body, html {
