@@ -1,6 +1,17 @@
 @use '../custom.scss' as *;
 @use '../components/mixins' as *;
 
-.recent-works {
-    background-color: #EBF0EE;
+.works {
+    &__row {
+        &-card {
+            &__image{
+                max-height: 225px;
+                min-height: 225px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+            }
+        }
+    }
 }

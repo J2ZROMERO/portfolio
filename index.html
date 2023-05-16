@@ -10,6 +10,28 @@
 </head>
 <body>
 
+<!-- Popup event -->
+<!-- Button trigger modal -->
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...gfdgsdfgdfhsgfhggdffdhd
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 <!-- START NAVBAR -->
 <div class="container-fluid m-0 p-0  w-900px">
   <nav class="navbar navbar-expand-lg navbar-light bgT-light">
@@ -80,56 +102,26 @@
   <div class="row works__row justify-content-center">
 
 
-    <div class="card works__row-card m-3" style="width: 18rem;">
-      <div class="overflow-hidden" style="max-height: 250px;min-height: 250px; ">
+    <div class="card border-success works__row-card m-3" style="width: 18rem;">
+      <div class="overflow-hidden works__row-card__image">
         <img src="./assets/img/recent_works/board.png" class="card-img-top" alt="...">
       </div>
       <div class="card-body text-center works__row-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+        <h5 class="card-title d-block pb-2">Card title</h5>
+        <button type="button" class="btn btn-light m-1">Light</button>
+        <button type="button" class="btn btn-light m-1">Light</button>
+        <button type="button" class="btn btn-light m-1">Light</button>
+        <button type="button" class="btn btn-light m-1">Light</button>
+        <button type="button" class="btn btn-light m-1">Light</button>
+
+        <a class="d-block pt-3" href="#"><button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">Success</button></a>
       </div>
     </div>
 
-    <div class="card m-3" style="width: 18rem;">
-      <div class="overflow-hidden recent-works__img" style="max-height: 250px;min-height: 250px; ">
-        <img src="./assets/img/recent_works/coin.png" class="card-img-top" alt="...">
-      </div>
-      <div class="card-body text-center">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
-      </div>
-    </div>
-
-    
-    <div class="card m-3" style="width: 18rem;">
-      <div class="overflow-hidden recent-works__img" style="max-height: 250px;min-height: 250px; ">
-        <img src="./assets/img/recent_works/coin.png" class="card-img-top" alt="...">
-      </div>
-      <div class="card-body text-center">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
-      </div>
-    </div>
-
-
-    
-    <div class="card m-3" style="width: 18rem;">
-      <div class="overflow-hidden recent-works__img" style="max-height: 250px;min-height: 250px; ">
-      <img src="./assets/img/recent_works/coin.png" class="card-img-top" alt="...">
-    </div>
-      <div class="card-body text-center">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
-      </div>
-    </div>
 
   </div>
 </div>
-
+<script type="module" src="./assets/js/social_media/media.js"></script>
 <script src="./assets/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
