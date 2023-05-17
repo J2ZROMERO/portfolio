@@ -1,4 +1,8 @@
 import  Card from './card.js';
+import popup from './popup.js';
+
+// Insert the new element as the first child of the body
+document.body.insertAdjacentHTML('afterbegin',popup);
 
 const imageUrl = '/assets/img/recent_works/board.png';
 const cardTitle = 'Nuevo';
