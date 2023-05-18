@@ -18,5 +18,21 @@ $navbar-light-hover-color:          $quaternary;
 // $navbar-light-active-color:         ;
 // $navbar-light-disabled-color:       rgba($black, .3) !default;
 
+// MODAL SIZES
+$modal-sm:                          300px !default;
+$modal-md:                          550px !default;
+$modal-lg:                          1000px !default;
+$modal-xl:                          1140px !default;
+
+$modal-header-padding-y:            .3rem !default;
+
+
+// BADGES
+ $secondary:     $tertiary;
+ $badge-font-size:                   .80rem;
+ $badge-font-weight:                 600;
+ $badge-color:                       $quaternary;
+ $badge-padding-y:                   .65em;
+
 // Import bootstrap 5
 @import "../node_modules/bootstrap/scss/bootstrap.scss"

@@ -19,22 +19,29 @@ const popup = `
     </video>
     </div>
       </div>
-      <div class="modal-boy row">
-<div class="col-8">
-       <h1>Modal title</h1> 
-       </div>
-      <div class="col-4">
-       <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-      <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-      <div>
-    ${createButtonElements(buttons)};
-      </div>
+      <div class="modal-body row">
+        <div class="col-5">
+          <h2>Modal title</h2> 
+        </div>
+        
+        <div class="col-7 text-end">
+        
+        <a href=""><button type="button" class="btn btn-success">See Live <i class="fab fa-github ps-2"></i></button></a>
+        <a href=""><button type="button" class="btn btn-success">See Live <i class="fab fa-github ps-2"></i></button></a>
+
+
         </div>
 
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+        <div class="">
+        <span class="badge bg-secondary">Success</span>
+        </div>
+        <div>
+          <h6>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus obcaecati assumenda non sit sequi maiores. Cum voluptates harum, velit voluptas, in culpa rem tenetur totam facere commodi saepe, explicabo repellat!
+              
+              
+          </h6>
+        </div>
       </div>
     </div>
   </div>
