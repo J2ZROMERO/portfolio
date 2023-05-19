@@ -5,7 +5,7 @@
 // IMPORT THE SECTIONS
 @use './sections/works';
 @use './sections/presentation';
-
+@use'./components/_typography';
 body,html {
     // height: 100vh;   
 }

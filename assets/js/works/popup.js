@@ -1,8 +1,8 @@
 // Exporting a method directly
-const createButtonElements = (buttons) => {
-  return buttons.map(buttonText => `<button type="button" class="btn btn-light m-1">${buttonText}</button>`).join('');
+const createBadgetsElements = (badges) => {
+  return badges.map(badges => `<span class="badge bg-secondary mt-2 me-2">${badges}</span>`).join('');
 }
-const buttons = ['Bu', 'Bn 2', 'Button 3', 'Button 4', 'Button 5', 'Button 5','Butt','Button 5'];
+const badges = ['Bu', 'Bn 2', 'Button 3', 'Button 4', 'Button 5', 'Button 5','Butt','Button 5'];
 
 const popup = `
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -20,26 +20,26 @@ const popup = `
     </div>
       </div>
       <div class="modal-body row">
-        <div class="col-5">
-          <h2>Modal title</h2> 
+        <div class="col-7">
+          <h2>Modal title the </h2> 
         </div>
         
-        <div class="col-7 text-end">
+        <div class="col-5 text-end">
         
         <a href=""><button type="button" class="btn btn-success">See Live <i class="fab fa-github ps-2"></i></button></a>
-        <a href=""><button type="button" class="btn btn-success">See Live <i class="fab fa-github ps-2"></i></button></a>
+        <a href=""><button type="button" class="btn btn-success">See Source <i class="fab fa-github ps-2"></i></button></a>
 
 
         </div>
 
         <div class="">
-        <span class="badge bg-secondary">Success</span>
+        
+${createBadgetsElements(badges)}
+
         </div>
-        <div>
-          <h6>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus obcaecati assumenda non sit sequi maiores. Cum voluptates harum, velit voluptas, in culpa rem tenetur totam facere commodi saepe, explicabo repellat!
-              
-              
+        <div class="mt-4">
+          <h6 class="popup">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus obcaecati assumenda non sit sequi maiores. Cum voluptates harum, velit voluptas, in culpa rem tenetur totam facere commodi saepe, explicabo repellat! 
           </h6>
         </div>
       </div>

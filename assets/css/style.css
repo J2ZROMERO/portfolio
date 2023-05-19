@@ -10151,4 +10151,12 @@ textarea.form-control-lg {
   scale: 1.5;
 }
 
+.popup {
+  font-size: 1rem;
+  text-transform: capitalize;
+  line-height: 1.3rem;
+  font-weight: 485;
+  font-family: sans-serif;
+}
+
 /*# sourceMappingURL=style.css.map */

@@ -1,12 +1,12 @@
 class Card {
-    constructor(imageUrl, cardTitle, buttons) {
+    constructor(imageUrl, cardTitle, badges) {
         this.imageUrl = imageUrl;
         this.cardTitle = cardTitle;
-        this.buttons = buttons;
+        this.badges = badges;
     }
 
-    createButtonElements = (buttons) => {
-        return buttons.map(buttonText => `<button type="button" class="btn btn-light m-1">${buttonText}</button>`).join('');
+    createBadgetsElements = (badges) => {
+      return badges.map(badges => `<span class="badge bg-secondary mt-2 me-2">${badges}</span>`).join('');
     }
 
     createCard = () => {
@@ -15,10 +15,10 @@ class Card {
           <div class="overflow-hidden works__row-card__image">
             <img src="${this.imageUrl}" class="card-img-top" alt="...">
           </div>
-          <div class="card-body text-center works__row-body">
+          <div class="text-center works__row-body">
             <h5 class="card-title d-block pb-2">${this.cardTitle}</h5>
-            ${this.createButtonElements(this.buttons)}
-            <a class="d-block pt-3" href="#"><button type="button" class="btn btn-success" data-bs-toggle="modal"
+            ${this.createBadgetsElements(this.badges)}
+            <a class="d-block pt-3 pb-2" href="#"><button type="button" class="btn btn-success" data-bs-toggle="modal"
                 data-bs-target="#exampleModal">Success</button></a>
           </div>
         </div>
