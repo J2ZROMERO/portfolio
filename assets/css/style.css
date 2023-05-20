@@ -10151,7 +10151,23 @@ textarea.form-control-lg {
   scale: 1.5;
 }
 
-.popup {
+@media (max-width: 575.98px) {
+  .modal-body-popup {
+    flex-direction: column;
+  }
+}
+@media (max-width: 575.98px) {
+  .modal-body-popup__title {
+    padding-bottom: 0.75rem;
+  }
+}
+@media (max-width: 575.98px) {
+  .modal-body-popup__button {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.modal-body-popup__description {
   font-size: 1rem;
   text-transform: capitalize;
   line-height: 1.3rem;

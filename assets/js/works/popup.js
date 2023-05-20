@@ -19,25 +19,23 @@ const popup = `
     </video>
     </div>
       </div>
-      <div class="modal-body row">
-        <div class="col-6 fs-5">
+      <div class="modal-body row modal-body-popup">
+        <div class="col-12 col-sm-6 fs-5 modal-body-popup__title">
           <h2>Modal title the </h2> 
         </div>
         
-        <div class="col-6 text-end">
+        <div class="col-12 col-sm-6 text-end modal-body-popup__button">
         
         <a href=""><button type="button" class="btn btn-success font-bottons-popup">See Live <i class="fab fa-github ps-2"></i></button></a>
-        <a href=""><button type="button" class="btn btn-success font-bottons-popup">See Source <i class="fab fa-github ps-2"></i></button></a>
-
-
+        <a href="" class="modal-body-popup__button--source" ><button type="button" class="btn btn-success font-bottons-popup">See Source <i class="fab fa-github ps-2"></i></button></a>
         </div>
 
-        <div class="pt-1">
+        <div class="pt-1 modal-body-popup__badgets">
         
 ${createBadgetsElements(badges)}
 
         </div>
-        <div class="mt-4">
+        <div class="mt-4 modal-body-popup__description">
           <h6 class="popup">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus obcaecati assumenda non sit sequi maiores. Cum voluptates harum, velit voluptas, in culpa rem tenetur totam facere commodi saepe, explicabo repellat! 
           </h6>
