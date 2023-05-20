@@ -26,7 +26,7 @@ const popup = `
         
         <div class="col-12 col-sm-6 text-end modal-body-popup__button">
         
-        <a href=""><button type="button" class="btn btn-success font-bottons-popup">See Live <i class="fab fa-github ps-2"></i></button></a>
+        <a href=""><button type="button" class="btn btn-success font-bottons-popup">See Live <i class="fa-solid fa-rocket ps-2"></i></i></button></a>
         <a href="" class="modal-body-popup__button--source" ><button type="button" class="btn btn-success font-bottons-popup">See Source <i class="fab fa-github ps-2"></i></button></a>
         </div>
 

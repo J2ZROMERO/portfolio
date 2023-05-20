@@ -6,7 +6,6 @@
   }
   &__title{
     @include media-breakpoint-down(sm) {
-      // text-align: center;
       padding-bottom: .750rem;
     } 
   }
