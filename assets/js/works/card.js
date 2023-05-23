@@ -1,9 +1,10 @@
 class Card {
-    constructor(imageUrl, cardTitle, badges, target) {
+    constructor(imageUrl, cardTitle, badges, target,index) {
         this.imageUrl = imageUrl;
         this.cardTitle = cardTitle;
         this.badges = badges;
         this.target = target;
+        this.index = index;
     }
 
     createBadgetsElements = (badges) => {
@@ -16,8 +17,8 @@ class Card {
         <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-3">
         <div class="row works__row justify-content-center">
         <div class="card border-success works__row-card m-3" style="width: 18rem;">
-          <div class="overflow-hidden works__row-card__image">
-            <img src="${this.imageUrl}" class="card-img-top" alt="...">
+          <div class="overflow-hidden works__row-card__image bg__image${this.index}">
+            
           </div>
           <div class="text-center works__row-body">
             <h5 class="card-title d-block pb-2">${this.cardTitle}</h5>
