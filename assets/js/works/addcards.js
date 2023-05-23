@@ -1,13 +1,25 @@
 import  Card from './card.js';
-import popup from './popup.js';
+// import activatepopup from './popups/activatePopup.js'
+// budget card 
+const imageUrl = '/assets/img/recent_works/budget.png';
+const cardTitle = 'Budget App';
+const badgesCard = ['Rails', 'Ruby', 'MVC', 'EC6', 'Linters', 'RSpec','Device','Render'];
+const targetCard = 'budget';
+const card = new Card(imageUrl, cardTitle, badgesCard,targetCard);
+card.setCard('.works__row');
 
-// Insert the new element as the first child of the body
-document.body.insertAdjacentHTML('afterbegin',popup);
+const imageUrls = '/assets/img/recent_works/board.png';
+const cardTitles = 'Budget App';
+const badgesCards = ['Rails', 'Ruby', 'MVC', 'EC6', 'Linters', 'RSpec','Device','Render'];
+const targetCards = 'budget';
+const cards = new Card(imageUrls, cardTitles, badgesCards,targetCards);
+cards.setCard('.works__row');
 
-const imageUrl = '/assets/img/recent_works/board.png';
-const cardTitle = 'Nuevo';
-const badges = ['Bu', 'Bn 2', 'Button 3', 'Button 4', 'Button 5', 'Button 5','Butt','Button 5'];
 
-const card = new Card(imageUrl, cardTitle, badges);
-card.setCard('.works');
-
+const imageUrlss = '/assets/img/recent_works/board.png';
+const cardTitless = 'Budget App';
+const badgesCardss = ['Rails', 'Ruby', 'MVC', 'EC6', 'Linters', 'RSpec','Device','Render'];
+const targetCardss = 'budget';
+const cardss = new Card(imageUrlss, cardTitless, badgesCardss,targetCardss);
+cardss.setCard('.works__row');
+// activatepopup();
