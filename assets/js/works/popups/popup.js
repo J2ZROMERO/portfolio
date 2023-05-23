@@ -21,8 +21,8 @@ class Popup {
     return ` <div class="modal fade" id=${this.target}  tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
         <div class="modal-content">
-          <div class="modal-header flex-column">
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          <div class="modal-header video___container">
+          <div class="position-absolute top-0 end-0 video___container-close">  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
         
           <div class="modal-body">
           <video class="image w-100" controls autoplay>

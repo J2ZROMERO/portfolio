@@ -17,3 +17,13 @@
 }
 
 
+.video___container {
+    min-height: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+    
+    &-close{
+    margin-right: .750rem;
+    margin-top: .750rem;
+    }
+}

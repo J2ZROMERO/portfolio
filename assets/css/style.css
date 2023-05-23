@@ -10111,6 +10111,16 @@ textarea.form-control-lg {
   align-items: center;
 }
 
+.video___container {
+  min-height: 60vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+.video___container-close {
+  margin-right: 0.75rem;
+  margin-top: 0.75rem;
+}
+
 .presentation {
   padding-top: 10rem;
   display: flex;

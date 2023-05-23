@@ -14,7 +14,7 @@ const cards = [
       imageUrl: '/assets/img/recent_works/coin.png',
       cardTitle: 'Coint stats',
       badgesCard: ['Babel', 'React-Redux', 'External API', 'Netlify', 'Linters', 'RSpec','Jest'],
-      targetCard: 'budget',
+      targetCard: 'coin',
     },
     
     
