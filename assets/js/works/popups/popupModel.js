@@ -1,8 +1,9 @@
 // Exporting a method directly
 
 class Popup {
-  constructor(target,badges,webm,mp4,jpg,live,source,description) {
+  constructor(target,title,badges,webm,mp4,jpg,live,source,description) {
     this.target = target;
+    this.title = title;
     this.badges = badges;
     this.webm = webm;
     this.mp4 = mp4;
@@ -34,7 +35,7 @@ class Popup {
           </div>
           <div class="modal-body row modal-body-popup">
             <div class="col-12 col-sm-6 fs-5 modal-body-popup__title">
-              <h2>Modal title the </h2> 
+              <h2>${this.title}</h2> 
             </div>
             
             <div class="col-12 col-sm-6 text-end modal-body-popup__button">

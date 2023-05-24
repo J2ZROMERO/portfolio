@@ -10115,6 +10115,7 @@ textarea.form-control-lg {
   min-height: 60vh;
   display: flex;
   flex-wrap: wrap;
+  max-height: 60vh;
 }
 .video___container-close {
   margin-right: 0.75rem;

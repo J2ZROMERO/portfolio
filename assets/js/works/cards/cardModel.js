@@ -20,11 +20,11 @@ class Card {
           <div class="overflow-hidden works__row-card__image bg__image${this.index}">
             
           </div>
-          <div class="text-center works__row-body">
+          <div class="text-center works__row-body pt-1">
             <h5 class="card-title d-block pb-2">${this.cardTitle}</h5>
             ${this.createBadgetsElements(this.badges)}
             <a class="d-block pt-3 pb-2" href="#"><button type="button" class="btn btn-success btn-card" 
-                data-bs-target="#${this.target}">Success</button></a>
+                data-bs-target="#${this.target}">See Project</button></a>
           </div>
         </div>
         </div>
