@@ -42,26 +42,59 @@ button.forEach((button) => {
       case '#leader':
         const leader = new Popup(popup.leader.targetPopup,popup.leader.title, popup.leader.badgesPopup, popup.leader.webm, popup.leader.mp4, popup.leader.png, popup.leader.live, popup.leader.source, popup.leader.description);
         document.body.insertAdjacentHTML('afterbegin', leader.show());
-        fetch(popup.leader.webm)
-        .then(response => {
-          if (response.ok) {
-          console.log('Video is available.');
-          // Proceed with your desired logic
-          } else {
-          console.log('Video encountered a 404 error.');
-          document.querySelector('.video-container__son').style.display = 'none';
-          const imgCard = document.querySelector('.video-container');
-          imgCard.style.backgroundImage = `url(${popup.leader.png})`;
-          imgCard.style.backgroundSize = 'cover';
-          imgCard.style.backgroundPosition = 'top';
-          imgCard.style.backgroundRepeat = 'no-repeat';
+     
+     
+     ///////
+      const link1 = popup.leader.webm;
+      const link2 = popup.leader.mp4;
 
-          }
-          })
+const fetchLink = (url) => {
+  return fetch(url)
+    .then(response => {
+      if (response.ok) {
+        console.log(url); // You can parse the response data here if needed
+      } else {
+        throw new Error('Error fetching the link.' + url);
+      }
+    });
+};
+
+Promise.all([fetchLink(link1), fetchLink(link2)])
+  .then(([response1, response2]) => {
+    console.log('Response 1:', response1);
+    console.log('Response 2:', response2);
+
+    // Compare the responses here
+    if (response1 === response2) {
+      console.log('Responses are equal.');
+    } else {
+      console.log('Responses are different.');
+    }
+  })
   .catch(error => {
-    console.log('An error occurred while fetching the video:', error);
-    // Handle the error
+    console.log('An error occurred:', error);
   });
+     ///////
+  //       fetch(popup.leader.webm)
+  //       .then(response => {
+  //         if (response.ok) {
+  //         console.log('Video is available.');
+  //         // Proceed with your desired logic
+  //         } else {
+  //         console.log('Video encountered a 404 error.');
+  //         document.querySelector('.video-container__son').style.display = 'none';
+  //         const imgCard = document.querySelector('.video-container');
+  //         imgCard.style.backgroundImage = `url(${popup.leader.png})`;
+  //         imgCard.style.backgroundPosition = 'center';
+  //         imgCard.style.backgroundRepeat = 'no-repeat';
+  //         imgCard.style.backgroundSize =  '95%';
+
+  //         }
+  //         })
+  // .catch(error => {
+  //   console.log('An error occurred while fetching the video:', error);
+  //   // Handle the error
+  // });
         const leaders = new bootstrap.Modal(document.getElementById('leader'))
         leaders.show();
         break;
