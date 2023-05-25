@@ -10111,13 +10111,13 @@ textarea.form-control-lg {
   align-items: center;
 }
 
-.video___container {
+.video-container {
   min-height: 60vh;
   display: flex;
   flex-wrap: wrap;
   max-height: 60vh;
 }
-.video___container-close {
+.video-container-close {
   margin-right: 0.75rem;
   margin-top: 0.75rem;
 }

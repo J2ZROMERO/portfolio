@@ -20,7 +20,34 @@ const cardElements = [
         badgesCard: ['Babel', 'Web-pack', 'LocalStorage', 'Github-pages', 'ESlint', 'EC6','Jest'],
         targetCard: 'todo',
       },
-    
+    {
+      // Math Magicians
+      imageUrl: '/assets/img/recent_works/math.png',
+      cardTitle: 'Math Magicians',
+      badgesCard: ['Webpack', 'EC6', 'React-Routes', 'Netlify', 'Linters', 'State&props','Jest','Big-js dependency','React'],
+      targetCard: 'math',
+    },
+    {
+      // awesome books
+      imageUrl: '/assets/img/recent_works/book.png',
+      cardTitle: 'Awesome Books',
+      badgesCard: ['LocalStorage', 'Github-pages', 'Luxon library', 'Linters', 'EC6'],
+      targetCard: 'book',
+    },
+    {
+      // leader board
+      imageUrl: '/assets/img/recent_works/board.png',
+      cardTitle: 'Leader Board',
+      badgesCard: ['Webpack','API','Github-pages', 'EC6', 'ESlint', 'LocalStorage','Jest'],
+      targetCard: 'leader',
+    },
+    {
+      // responsive web design
+      imageUrl: '/assets/img/recent_works/course.png',
+      cardTitle: 'Responsive Web Design',
+      badgesCard: ['HTML5', 'CSS3', 'Flexbox', 'Grid', 'Media Queries','Animations','External typography','Responsive'],
+      targetCard: 'responsive',
+    },
 ];
 
 

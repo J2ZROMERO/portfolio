@@ -32,7 +32,52 @@
              live : 'https://j2zromero.github.io/To-do-list/dist/',
              source : 'https://github.com/J2ZROMERO/To-do-list',
              description : 'Use this project as a tool to remember your daily tasks. Confirming, editing, and removing are actions you can take with tasks. Your data is saved in LocalStorage, so every time you open or refresh the page, all changes will be present.',
-         }
+         },
+            math: {
+                targetPopup : 'math',
+                title: 'Math Magicians',
+                badgesPopup : ['Webpack', 'EC6', 'React-Routes', 'Netlify', 'Linters', 'State&props','Jest','Big-js dependency','React'],
+                webm : '/assets/img/recent_works/math.webm',
+                mp4 : '/assets/img/recent_works/math.mp4',
+                png : '/assets/img/recent_works/math.png',
+                live : 'https://deploy-preview-6--sage-gaufre-cb8c5e.netlify.app/',
+                source : 'https://github.com/J2ZROMERO/Math-Magicians',
+                description : 'This is a React calculator that can be used for basic operations. It offers a navbar to navigate through 3 sections and to see more information about it.',
+            },
+            books: {
+                targetPopup : 'book',
+                title: 'Awesome Books',
+                badgesPopup : ['LocalStorage', 'Github-pages', 'Luxon library', 'Linters', 'EC6'],
+                webm : '/assets/img/recent_works/book.webm',
+                mp4 : '/assets/img/recent_works/book.mp4',
+                png : '/assets/img/recent_works/book.png',
+                live : 'https://j2zromero.github.io/Awesome-Books-ES6/',
+                source : 'https://github.com/J2ZROMERO/Awesome-Books-ES6',
+                description : 'This project is a book list that allows you to add and remove books from a list. Your data is saved in LocalStorage, so every time you open or refresh the page, all changes will be present.',
+            },
+            leader: {
+                targetPopup : 'leader',
+                title: 'Leaderboard',
+                badgesPopup : ['Webpack','API','Github-pages', 'EC6', 'ESlint', 'LocalStorage','Jest'],
+                webm : '/assets/img/recent_works/leader.webm',
+                mp4 : '/assets/img/recent_works/leader.mp4',
+                png : '/assets/img/recent_works/board.png',
+                live : 'https://j2zromero.github.io/Leader-board/dist/',
+                source : 'https://github.com/J2ZROMERO/Leader-board',
+                description : 'Create and save names as well as scores to them, localstorage will save your data.',
+            },
+            responsive: {
+                targetPopup : 'responsive',
+                title: 'Responsive Design',
+                badgesPopup : ['HTML5', 'CSS3', 'Flexbox', 'Grid', 'Media Queries','Animations','External typography','Responsive'],
+                webm : '/assets/img/recent_works/course.webm',
+                mp4 : '/assets/img/recent_works/course.mp4',
+                png : '/assets/img/recent_works/course.png',
+                live : 'https://j2zromero.github.io/Responsive-webPage/',
+                source : 'https://github.com/J2ZROMERO/Responsive-webPage',
+                description : 'This is an informative and responsive website. The styles, events, and effects make the interaction attractive.',
+            },
+
        }
        
 export default popup;

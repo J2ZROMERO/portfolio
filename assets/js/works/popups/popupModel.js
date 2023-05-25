@@ -22,11 +22,11 @@ class Popup {
     return ` <div class="modal fade" id=${this.target}  tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
         <div class="modal-content">
-          <div class="modal-header video___container">
-          <div class="position-absolute top-0 end-0 video___container-close">  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
+          <div class="modal-header video-container">
+          <div class="position-absolute top-0 end-0 video-container-close">  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
         
           <div class="modal-body">
-          <video class="image w-100" controls autoplay>
+          <video class="image w-100 video-container__son" controls autoplay>
           <source src=${this.webm} type="video/webm">
           <source src=$this.mp4} type="video/mp4">
           <img src=${this.jpg} alt="Imagen de muestra">
