@@ -54,7 +54,7 @@
                 targetPopup : 'leader',
                 title: 'Leaderboard',
                 badgesPopup : ['Webpack','API','Github-pages', 'EC6', 'ESlint', 'LocalStorage','Jest'],
-                webm : '/assets/img/recent_works/boarda.webm',
+                webm : '/assets/img/recent_works/board.webm',
                 png : '/assets/img/recent_works/board.png',
                 live : 'https://j2zromero.github.io/Leader-board/dist/',
                 source : 'https://github.com/J2ZROMERO/Leader-board',
