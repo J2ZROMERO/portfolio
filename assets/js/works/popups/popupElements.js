@@ -24,7 +24,7 @@
              targetPopup : 'todo',
              title: 'To-do List',
              badgesPopup : ['Babel', 'Web-pack', 'LocalStorage', 'Github-pages', 'ESlint', 'EC6','Jest'],
-             webm : '/assets/img/recent_works/todolist.webm',
+             webm : '/assets/img/recent_works/todolist.web',
              png : '/assets/img/recent_works/todolist.png',
              live : 'https://j2zromero.github.io/To-do-list/dist/',
              source : 'https://github.com/J2ZROMERO/To-do-list',
@@ -40,7 +40,7 @@
                 source : 'https://github.com/J2ZROMERO/Math-Magicians',
                 description : 'This is a React calculator that can be used for basic operations. It offers a navbar to navigate through 3 sections and to see more information about it.',
             },
-            books: {
+            book: {
                 targetPopup : 'book',
                 title: 'Awesome Books',
                 badgesPopup : ['LocalStorage', 'Github-pages', 'Luxon library', 'Linters', 'EC6'],

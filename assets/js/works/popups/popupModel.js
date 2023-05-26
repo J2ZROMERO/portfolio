@@ -1,16 +1,15 @@
 // Exporting a method directly
 
 class Popup {
-  constructor(target,title,badges,webm,mp4,jpg,live,source,description) {
+  constructor(target,title,badges,webm,jpg,live,source,description) {
     this.target = target;
     this.title = title;
     this.badges = badges;
     this.webm = webm;
-    this.mp4 = mp4;
     this.jpg = jpg;
-    this.description = description;
     this.live = live;
     this.source = source;
+    this.description = description;
   }
 
    createBadgetsElements = (badges) => {
