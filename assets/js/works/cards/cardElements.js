@@ -24,7 +24,7 @@ const cardElements = [
       // Math Magicians
       imageUrl: '/assets/img/recent_works/math.png',
       cardTitle: 'Math Magicians',
-      badgesCard: ['Webpack', 'EC6', 'React-Routes', 'Netlify', 'Linters', 'State&props','Jest','Big-js dependency','React'],
+      badgesCard: ['Webpack', 'EC6', 'React-Routes', 'Netlify', 'Linters', 'Jest'],
       targetCard: 'math',
     },
     {
@@ -45,7 +45,7 @@ const cardElements = [
       // responsive web design
       imageUrl: '/assets/img/recent_works/course.png',
       cardTitle: 'Responsive Web Design',
-      badgesCard: ['HTML5', 'CSS3', 'Flexbox', 'Grid', 'Media Queries','Animations','External typography','Responsive'],
+      badgesCard: ['Grid', 'Media Queries','Animations','External typography','Responsive'],
       targetCard: 'responsive',
     },
 ];

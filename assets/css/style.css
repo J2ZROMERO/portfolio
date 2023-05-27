@@ -10162,6 +10162,13 @@ textarea.form-control-lg {
   scale: 1.5;
 }
 
+.about-me {
+  background-image: url(/assets/img/background/desktop/aboutmeLeft.svg), url(/assets/img/background/desktop/aboutmeRight.svg);
+  background-repeat: no-repeat;
+  background-size: 13%, 75%;
+  background-position: left bottom, right top;
+}
+
 @media (max-width: 575.98px) {
   .modal-body-popup {
     flex-direction: column;

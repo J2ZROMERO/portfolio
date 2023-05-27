@@ -5,6 +5,9 @@
 // IMPORT THE SECTIONS
 @use './sections/works';
 @use './sections/presentation';
+@use './sections/about';
+
+// IMPORT THE COMPONENTS
 @use'./components/_typography';
 @use'./components/_buttons';
 body,html {
