@@ -1,7 +1,7 @@
 import Card from './cardModel.js';
 import cardElements from './cardElements.js';
 
-const showCards = () => {
+const showCardsWorks = () => {
 
     cardElements.forEach((card, index) => {
     const cardInstance = new Card(card.imageUrl, card.cardTitle, card.badgesCard, card.targetCard, index);
@@ -15,5 +15,5 @@ const showCards = () => {
   });
 
 }
-export default showCards;
+export default showCardsWorks;
   

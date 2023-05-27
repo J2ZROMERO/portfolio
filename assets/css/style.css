@@ -10166,7 +10166,21 @@ textarea.form-control-lg {
   background-image: url(/assets/img/background/desktop/aboutmeLeft.svg), url(/assets/img/background/desktop/aboutmeRight.svg);
   background-repeat: no-repeat;
   background-size: 13%, 75%;
-  background-position: left bottom, right top;
+  background-position: left 150px, right top;
+}
+.about-me__cards {
+  min-height: 25vh;
+  display: block;
+  text-align: center;
+}
+.about-me__cards h1 {
+  padding-top: 1rem;
+}
+.about-me__cards .icon {
+  margin-top: 2rem;
+}
+.about-me__cards-badges {
+  color: red;
 }
 
 @media (max-width: 575.98px) {
