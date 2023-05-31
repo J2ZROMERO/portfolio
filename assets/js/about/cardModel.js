@@ -14,7 +14,7 @@ class Card {
         return  `
         <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-3 d-flex justify-content-center">
         <div class="card about-me__cards bg-secondary mb-5" style="width: 18rem;">
-
+        
         ${this.imageUrl}
         <h1 class="text-center">${this.cardTitle}
         </h1>
