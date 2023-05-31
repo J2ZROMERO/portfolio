@@ -1,0 +1,20 @@
+@use '../_custom.scss' as *;
+.form {
+    background-image: 
+      url("../../assets/img/background/desktop/rock-left.svg"),
+      url("../../assets/img/background/desktop/short-rock.svg"),
+      url("../../assets/img/background/desktop/bar-right.svg");
+
+    min-height: 60vh;
+    background-position: left 0rem bottom 2rem, left 13rem bottom 0rem, right 0rem top 0rem;  
+    background-repeat: no-repeat;
+
+    @include media-breakpoint-up(lg) {
+        background-position: left 0rem bottom 5rem, left 13rem bottom 4rem, right 0rem top -2rem;
+    }
+    @include media-breakpoint-up(sm) {
+        min-height: 60vh;
+    background-position: left 0rem bottom 2rem, left 13rem bottom 0rem, right 0rem top 0rem;  
+    }
+  }
+  

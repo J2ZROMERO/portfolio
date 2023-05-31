@@ -10132,7 +10132,7 @@ textarea.form-control-lg {
   background-image: url("../../assets/img/background/desktop/background.svg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: top;
 }
 @media (max-width: 575.98px) {
   .presentation {
@@ -10183,6 +10183,24 @@ textarea.form-control-lg {
   color: red;
 }
 
+.form {
+  background-image: url("../../assets/img/background/desktop/rock-left.svg"), url("../../assets/img/background/desktop/short-rock.svg"), url("../../assets/img/background/desktop/bar-right.svg");
+  min-height: 60vh;
+  background-position: left 0rem bottom 2rem, left 13rem bottom 0rem, right 0rem top 0rem;
+  background-repeat: no-repeat;
+}
+@media (min-width: 992px) {
+  .form {
+    background-position: left 0rem bottom 5rem, left 13rem bottom 4rem, right 0rem top -2rem;
+  }
+}
+@media (min-width: 576px) {
+  .form {
+    min-height: 60vh;
+    background-position: left 0rem bottom 2rem, left 13rem bottom 0rem, right 0rem top 0rem;
+  }
+}
+
 @media (max-width: 575.98px) {
   .modal-body-popup {
     flex-direction: column;
@@ -10205,6 +10223,14 @@ textarea.form-control-lg {
   line-height: 1.3rem;
   font-weight: 485;
   font-family: sans-serif;
+}
+
+.heading-line::before {
+  content: "";
+  height: 0.1rem;
+  display: block;
+  margin: 0 auto;
+  background-color: #EBF0EE;
 }
 
 .font-bottons-popup {
