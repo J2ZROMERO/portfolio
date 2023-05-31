@@ -6,7 +6,7 @@ class Card {
     }
 
     createBadgetsElements = (badges) => {
-      return badges.map(badges => `<span class="badge bg-white mt-2 me-2 text-success">${badges}</span>`).join('');
+      return badges.map(badges => `<span class="badge bg-white mt-2 ms-1 me-1 text-success">${badges}</span>`).join('');
     }
 
 
