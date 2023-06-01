@@ -10188,6 +10188,17 @@ textarea.form-control-lg {
   color: red;
 }
 
+@media (min-width: 992px) {
+  .cards-container {
+    padding-top: 5rem;
+  }
+}
+@media (min-width: 576px) {
+  .cards-container {
+    padding-top: 5rem;
+  }
+}
+
 .form {
   background-image: url("../../assets/img/background/desktop/rock-left.svg"), url("../../assets/img/background/desktop/short-rock.svg"), url("../../assets/img/background/desktop/bar-right.svg");
   min-height: 60vh;

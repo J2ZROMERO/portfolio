@@ -1,10 +1,11 @@
+@use '../_custom.scss' as *;
+
 .about-me {
     background-image: url(/assets/img/background/desktop/aboutmeLeft.svg), url(/assets/img/background/desktop/aboutmeRight.svg);
     background-repeat: no-repeat;
     background-size: 13%, 75%;
     padding: 5rem 0 0 0;
     background-position: left 15rem, right 4rem;
-
     &__cards{
         min-height: 25vh;
         display: block;
@@ -16,7 +17,18 @@
             margin-top: 2rem;
         }
         &-badges {
-          color: red;
+            color: red;
         }
+    }
+}
+.cards-container{
+    
+    @include media-breakpoint-up(lg) {
+        padding-top: 5rem;
+        
+    }
+    @include media-breakpoint-up(sm) {
+        padding-top: 5rem;
+        
     }
 }

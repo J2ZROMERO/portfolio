@@ -24,7 +24,7 @@
              targetPopup : 'todo',
              title: 'To-do List',
              badgesPopup : ['Babel', 'Web-pack', 'LocalStorage', 'Github-pages', 'ESlint', 'EC6','Jest'],
-             webm : '/assets/img/recent_works/todolist.web',
+             webm : '/assets/img/recent_works/todolist.webm',
              png : '/assets/img/recent_works/todolist.png',
              live : 'https://j2zromero.github.io/To-do-list/dist/',
              source : 'https://github.com/J2ZROMERO/To-do-list',
