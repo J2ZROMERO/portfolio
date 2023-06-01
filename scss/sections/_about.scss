@@ -2,7 +2,8 @@
     background-image: url(/assets/img/background/desktop/aboutmeLeft.svg), url(/assets/img/background/desktop/aboutmeRight.svg);
     background-repeat: no-repeat;
     background-size: 13%, 75%;
-    background-position: left 150px, right top;
+    padding: 5rem 0 0 0;
+    background-position: left 15rem, right 4rem;
 
     &__cards{
         min-height: 25vh;

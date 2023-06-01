@@ -2,6 +2,7 @@
 @use '../components/mixins' as *;
 
 .works {
+    padding-top: 6rem;
     &__row {
         &-card {
             &__image{

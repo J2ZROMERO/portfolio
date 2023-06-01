@@ -34,5 +34,8 @@ $modal-header-padding-y:            .3rem !default;
  $badge-color:                       $quaternary;
  $badge-padding-y:                   .65em;
 
+// SHADOWS
+$box-shadow-sm:               0 .125rem .25rem rgba($primary, .075);
+
 // Import bootstrap 5
 @import "../node_modules/bootstrap/scss/bootstrap.scss"

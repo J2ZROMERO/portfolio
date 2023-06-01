@@ -13,7 +13,7 @@
 <body>
 
   <!-- START NAVBAR -->
-  <div class="container-fluid m-0 p-0  w-900px">
+  <div class="container-fluid m-0 p-0 fixed-top bg-white shadow-sm">
     <nav class="navbar navbar-expand-lg navbar-light bgT-light">
       <div class="container-fluid">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -23,24 +23,25 @@
         <div class="collapse navbar-collapse d-lg-flex justify-content-center" id="navbarNav">
           <ul class="navbar-nav text-center ">
             <li class="nav-item">
-              <a class="nav-link fs-5" href="#">Hello</a>
+              <a class="nav-link fs-5" id="hello" href="#">Hello</a>
             </li>
             <li class="nav-item ps-2">
-              <a class="nav-link fs-5" href="#">Portfolio</a>
+              <a class="nav-link fs-5" href="#" id="portfolio">Portfolio</a>
             </li>
             <li class="nav-item ps-2">
-              <a class="nav-link fs-5" href="#">About</a>
+              <a class="nav-link fs-5" href="#" id="about">About</a>
             </li>
             <li class="nav-item ps-2">
-              <a class="nav-link fs-5" href="#">Contact</a>
+              <a class="nav-link fs-5" href="#" id="contact">Contact</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
+  </div>
 
 
-    <div class="container presentation">
+    <div class="container presentation hello-section">
       <h1 class="presentation__greeting text-center pb-1">Hey there. I'm Jose <br> <span>I´m a software developer</span>
       </h1>
       <h3 class="presentation__speach text-center pt-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa,
@@ -74,13 +75,13 @@
         </li>
       </ul>
     </div>
-  </div>
+  
 
 
   <!-- START MY RECENT WORKS SECTION -->
-  <div class="container pt-5 works">
+  <div class="container works">
     <div class="row works__row text-center">
-      <div class="h1 ext-center pt-1 pb-5">My recent works</div>
+      <div class="h1 ext-center pb-5">My recent works</div>
     </div>
   </div>
   <!-- END MY RECENT WORKS SECTION -->

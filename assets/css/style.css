@@ -6366,7 +6366,7 @@ textarea.form-control-lg {
 }
 
 .shadow-sm {
-  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  box-shadow: 0 0.125rem 0.25rem rgba(54, 179, 126, 0.075) !important;
 }
 
 .shadow-lg {
@@ -10103,6 +10103,9 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.works {
+  padding-top: 6rem;
+}
 .works__row-card__image {
   max-height: 225px;
   min-height: 225px;
@@ -10126,7 +10129,8 @@ textarea.form-control-lg {
   padding-top: 10rem;
   display: flex;
   flex-direction: column;
-  height: 90vh;
+  height: 100vh;
+  margin-top: 4rem;
   width: 100%;
   align-items: center;
   background-image: url("../../assets/img/background/desktop/background.svg");
@@ -10166,7 +10170,8 @@ textarea.form-control-lg {
   background-image: url(/assets/img/background/desktop/aboutmeLeft.svg), url(/assets/img/background/desktop/aboutmeRight.svg);
   background-repeat: no-repeat;
   background-size: 13%, 75%;
-  background-position: left 150px, right top;
+  padding: 5rem 0 0 0;
+  background-position: left 15rem, right 4rem;
 }
 .about-me__cards {
   min-height: 25vh;

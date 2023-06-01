@@ -1,7 +1,7 @@
 import showCardsWorks from "./works/cards/showCardsWorks.js";
 import showCardsAbout from "./about/showCardsAbout.js";
 import selectPopup from "./works/popups/selectPopup.js";
-
+import navSlide from "./events/navbar/navigation.js";
 
 //  shows all the card that contain the information of the projects
 showCardsWorks();
@@ -11,3 +11,10 @@ showCardsAbout();
 
 //  activate the popup that contain the information of the projects
 selectPopup();
+
+//  activate the navigation bar
+navSlide();
+
+
+
+
