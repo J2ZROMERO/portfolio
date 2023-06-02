@@ -9,9 +9,10 @@
 @use './sections/form';
 
 // IMPORT THE COMPONENTS
-@use'./components/_typography';
-@use'./components/_buttons';
-body,html {
-    // height: 100vh;   
-}
+@use './components/_typography';
+@use './components/_buttons';
 
+body,
+html {
+  // height: 100vh;
+}

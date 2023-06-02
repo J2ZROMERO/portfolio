@@ -1,12 +1,11 @@
 // My theme colors
 
-
 // scss-docs-start theme-color-variables
-$primary: #36B37E;
-$secondary: #C5E9DA;
-$tertiary: #EBF0EE;
-$quaternary: #172B4D;
-$quinary: #FFFFFF;
+$primary: #36b37e;
+$secondary: #c5e9da;
+$tertiary: #ebf0ee;
+$quaternary: #172b4d;
+$quinary: #fff;
 
 // scss-docs-end theme-color-variables
 
@@ -24,18 +23,17 @@ $modal-md:                          550px !default;
 $modal-lg:                          1000px !default;
 $modal-xl:                          1140px !default;
 
-$modal-header-padding-y:            .3rem !default;
-
+$modal-header-padding-y:            0.3rem !default;
 
 // BADGES
- $secondary:                        $tertiary;
- $badge-font-size:                   .80rem;
- $badge-font-weight:                 600;
- $badge-color:                       $quaternary;
- $badge-padding-y:                   .65em;
+$secondary:                        $tertiary;
+$badge-font-size:                   0.8rem;
+$badge-font-weight:                 600;
+$badge-color:                       $quaternary;
+$badge-padding-y:                   0.65em;
 
 // SHADOWS
-$box-shadow-sm:               0 .125rem .25rem rgba($primary, .075);
+$box-shadow-sm:               0 0.125rem 0.25rem rgba($primary, 0.075);
 
 // Import bootstrap 5
 @import "../node_modules/bootstrap/scss/bootstrap.scss"

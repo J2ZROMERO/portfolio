@@ -2,36 +2,36 @@
 @use '../components/mixins' as *;
 
 .works {
-    padding-top: 6rem;
-    &__row {
-        &-card {
-            &__image{
-                max-height: 225px;
-                min-height: 225px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                
-            }
-        }
-        &-title{
-            @include media-breakpoint-down(sm) {
-                font-size: 2.7rem;
-                font-weight: 700;
-            }
-       }
-    
+  padding-top: 6rem;
+
+  &__row {
+    &-card {
+      &__image {
+        max-height: 225px;
+        min-height: 225px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
     }
+
+    &-title {
+      @include media-breakpoint-down(sm) {
+        font-size: 2.7rem;
+        font-weight: 700;
+      }
+    }
+  }
 }
 
-
 .video-container {
-    min-height: 60vh;
-    display: flex;
-    flex-wrap: wrap;
-    max-height: 60vh;    
-    &-close{
-    margin-right: .750rem;
-    margin-top: .750rem;
-    }
+  min-height: 60vh;
+  display: flex;
+  flex-wrap: wrap;
+  max-height: 60vh;
+
+  &-close {
+    margin-right: 0.75rem;
+    margin-top: 0.75rem;
+  }
 }

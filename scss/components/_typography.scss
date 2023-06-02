@@ -1,34 +1,33 @@
-@use  '../custom.scss' as *;
-  
+@use '../custom.scss' as *;
+
 .modal-body-popup {
   @include media-breakpoint-down(sm) {
     flex-direction: column;
   }
-  &__title{
+
+  &__title {
     @include media-breakpoint-down(sm) {
-      padding-bottom: .750rem;
-    } 
+      padding-bottom: 0.75rem;
+    }
   }
-  &__button{
+
+  &__button {
     @include media-breakpoint-down(sm) {
       display: flex;
       justify-content: space-between;
-    } 
-    
+    }
   }
-  
-  &__description{
-      font-size: 1rem;
-      text-transform: capitalize;
-      line-height: 1.3rem;
-      font-weight: 485;
-      font-family: sans-serif;
-  }
-    
-  }
-  
 
-  // HEADING LINE 
+  &__description {
+    font-size: 1rem;
+    text-transform: capitalize;
+    line-height: 1.3rem;
+    font-weight: 485;
+    font-family: sans-serif;
+  }
+}
+
+// HEADING LINE
 .heading-line::before {
   content: "";
   height: 0.1rem;
@@ -46,10 +45,10 @@
   font-weight: 700;
 }
 
-.email-bottom{
+.email-bottom {
   margin-top: 5rem;
+
   @include media-breakpoint-down(sm) {
     margin-top: 1rem;
   }
 }
-

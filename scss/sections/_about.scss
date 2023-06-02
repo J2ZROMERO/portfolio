@@ -1,57 +1,57 @@
 @use '../_custom.scss' as *;
 
 .about-me {
+  background-image: url(/assets/img/background/desktop/aboutmeLeft.svg), url(/assets/img/background/desktop/aboutmeRight.svg);
+  background-repeat: no-repeat;
+  background-size: 13%, 75%;
+  padding: 5rem 0 0 0;
+  background-position: left 15rem, right 4rem;
+
+  &__cards {
+    min-height: 25vh;
+    display: block;
+    text-align: center;
+
+    h1 {
+      padding-top: 1rem;
+    }
+
+    .icon {
+      margin-top: 2rem;
+    }
+
+    &-badges {
+      color: red;
+    }
+  }
+
+  @include media-breakpoint-down(sm) {
     background-image: url(/assets/img/background/desktop/aboutmeLeft.svg), url(/assets/img/background/desktop/aboutmeRight.svg);
     background-repeat: no-repeat;
-    background-size: 13%, 75%;
+    background-size: 9rem, 39rem;
     padding: 5rem 0 0 0;
-    background-position: left 15rem, right 4rem;
-    &__cards{
-        min-height: 25vh;
-        display: block;
-        text-align: center;
-        h1 {
-            padding-top: 1rem;
-        }
-        .icon {
-            margin-top: 2rem;
-        }
-        &-badges {
-            color: red;
-        }
-    }
+    background-position: -3rem 22rem, -11rem 2rem;
+  }
+
+  &__resume {
+    padding-bottom: 4rem;
 
     @include media-breakpoint-down(sm) {
-        background-image: url(/assets/img/background/desktop/aboutmeLeft.svg), url(/assets/img/background/desktop/aboutmeRight.svg);
-        background-repeat: no-repeat;
-        background-size: 9rem, 39rem;
-        padding: 5rem 0 0 0;
-        background-position: -3rem 22rem, -11rem 2rem;        
+      h1 {
+        padding-bottom: 1rem;
+        font-weight: 700;
+        font-size: 2.7rem;
+      }
     }
-    
-    &__resume {
-        padding-bottom: 4rem;
-        @include media-breakpoint-down(sm) {
-            h1 {
-                padding-bottom: 1rem;
-                font-weight: 700;
-                font-size: 2.7rem;
-            
-            }
-        }
-    }
+  }
 }
 
+.cards-container {
+  @include media-breakpoint-up(lg) {
+    padding-top: 5rem;
+  }
 
-
-.cards-container{
-    
-    @include media-breakpoint-up(lg) {
-        padding-top: 5rem;
-        
-    }
-    @include media-breakpoint-up(sm) {
-        padding-top: 5rem;
-        
-    }
+  @include media-breakpoint-up(sm) {
+    padding-top: 5rem;
+  }
 }

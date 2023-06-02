@@ -2,75 +2,81 @@
 @use '../components/mixins' as *;
 
 .presentation {
-    padding-top: 10rem;
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    margin-top: 4rem;
-    width: 100%;
-    align-items: center;
-    background-image: url("../../assets/img/background/desktop/background.svg");
+  padding-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin-top: 4rem;
+  width: 100%;
+  align-items: center;
+  background-image: url("../../assets/img/background/desktop/background.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+
+  @include media-breakpoint-down(sm) {
+    padding-top: 8rem;
+    background-image: url("../../assets/img/background/mobile/backgroundMobile.svg");
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top;
-    
-    @include media-breakpoint-down(sm) {
-        padding-top: 8rem;
-        background-image: url("../../assets/img/background/mobile/backgroundMobile.svg");
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: center;
-        
-        &__greeting {
-            font-size: 3rem;
-            span {
-                color: $primary;
-            }
-        }
+    background-size: contain;
+    background-position: center;
 
-        .presentation__speach {
-            width: 80%;
-        }
-
-        .presentation__icons {
-            @include list-inline;
-            font-size: 1.5rem;
-            &__list--style {
-                a{
-                    i:hover{
-                        color: $primary;
-                        scale: 1.5;
-                    }
-                }       
-            }
-        }
-    }
-    @include media-breakpoint-down(md) {
-        padding-top: 6rem;
-    }
-    
     &__greeting {
-        span {
+      font-size: 3rem;
+
+      span {
+        color: $primary;
+      }
+    }
+
+    .presentation__speach {
+      width: 80%;
+    }
+
+    .presentation__icons {
+      @include list-inline;
+
+      font-size: 1.5rem;
+
+      &__list--style {
+        a {
+          i:hover {
             color: $primary;
+            scale: 1.5;
+          }
         }
+      }
     }
-    &__speach {
-        width: 60%;
-        font-weight: 350;
-        font-size: 1.5rem;
+  }
+
+  @include media-breakpoint-down(md) {
+    padding-top: 6rem;
+  }
+
+  &__greeting {
+    span {
+      color: $primary;
     }
-    &__icons {
-        @include list-inline;
-        font-size: 1.2rem;
-        &__list--style {
-            a{
-                i:hover{
-                    color: $primary;
-                    scale: 1.5;
-                }
-            }
+  }
+
+  &__speach {
+    width: 60%;
+    font-weight: 350;
+    font-size: 1.5rem;
+  }
+
+  &__icons {
+    @include list-inline;
+
+    font-size: 1.2rem;
+
+    &__list--style {
+      a {
+        i:hover {
+          color: $primary;
+          scale: 1.5;
         }
+      }
     }
-    
-    
+  }
 }
