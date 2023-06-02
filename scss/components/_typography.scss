@@ -34,15 +34,22 @@
   height: 0.1rem;
   display: block;
   margin: 0 auto;
+  text-align: center;
   background-color: $secondary;
 }
-// .heading-line::after {
-//   content: "";
-//   width: 2rem;
-//   padding-top: 0.5rem;
-//   height: 0.2rem;
-//   display: block;
-//   margin: 0 auto;
-//   margin-bottom: 1rem;
-//   background-color: $secondary;
-// }
+
+.email-bottom::before {
+  content: "jose-zromero@hotmail.com";
+  padding-bottom: 1rem;
+  display: block;
+  margin: 0 auto;
+  font-weight: 700;
+}
+
+.email-bottom{
+  margin-top: 5rem;
+  @include media-breakpoint-down(sm) {
+    margin-top: 1rem;
+  }
+}
+

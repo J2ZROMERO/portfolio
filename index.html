@@ -42,11 +42,9 @@
 
 
     <div class="container presentation hello-section">
-      <h1 class="presentation__greeting text-center pb-1">Hey there. I'm Jose <br> <span>I´m a software developer</span>
+      <h1 class="presentation__greeting text-center pb-1">Hey there. <br> I'm Jose <br> <span>I´m a software developer</span>
       </h1>
-      <h3 class="presentation__speach text-center pt-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa,
-        nulla a aut numquam, laudantium, magnam facilis molestias assumenda eius commodi recusandae ab porro doloribus
-        tenetur magni nobis ducimus expedita? Perferendis.</h3>
+      <h3 class="presentation__speach text-center pt-1">I can help you build a product, feature, or website. Take a look at some of my work and experience! If you like what you see and have a project that needs coding, don't hesitate to contact me.</h3>
       <ul class="presentation__icons d-flex pt-5">
         <li class="presentation__icons__list--style">
           <a href="https://github.com/J2ZROMERO" target="_blank">
@@ -81,14 +79,14 @@
   <!-- START MY RECENT WORKS SECTION -->
   <div class="container works">
     <div class="row works__row text-center">
-      <div class="h1 ext-center pb-5">My recent works</div>
+      <div class="h1 text-center pb-5 works__row-title">My recent works</div>
     </div>
   </div>
   <!-- END MY RECENT WORKS SECTION -->
 
 <!-- START ABOUT ME SECTION -->
 <div class="container d-flex about-me align-items-center flex-column">
-  <div class="w-75 text-center">
+  <div class="w-75 text-center about-me__resume">
   <h1 class="about fw-400 pt-4 text-center">About me.
     <h2 class="text-center fw-light fs-4">I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.
     </h2>
@@ -109,15 +107,15 @@
 
 <!-- START FORM SECTION -->
 <div class="container d-flex flex-column align-items-center form pt-5 pb-3">
-  <h1 class="w-50 text-center mt-3">I'm always interested in hearing about new projects, so if you'd like to chat, please get in touch.</h1>
+  <h1 class="form-title text-center mt-3">I'm always interested in hearing about new projects, so if you'd like to chat, please get in touch.</h1>
 
-    <form class="row w-50 mt-4" id="formEmail" action="https://formspree.io/f/mjvzkzpo" method="post">
+    <form class="row mt-4 form-form" id="formEmail" action="https://formspree.io/f/mjvzkzpo" method="post">
 
-    <div class="col-12 col-lg-6 mt-3">
+    <div class="col-12 col-lg-6 mt-3 f-name">
       <input type="text" class="form-control" name="f-name" placeholder="First name" aria-label="First name" required>
     </div>
 
-    <div class="col-12 col-lg-6 mt-3">
+    <div class="col-12 col-lg-6 mt-3 s-name">
       <input type="text" class="form-control" name="s-name" placeholder="Last name" aria-label="Last name" required>
     </div>
 
@@ -130,14 +128,15 @@
       <textarea class="form-control" id="validationTextarea" placeholder="Enter Text Here." name="text" required></textarea>
     </div>
 
-    <div class="col-md-6 mt-3 d-flex justify-content-end align-items-end">
-      <button class="btn btn-primary text-white" type="submit" onclick="handleSubmit(event)">Submit form</button>
+    <div class="col-md-6 mt-3 form-form__button">
+      <button class="btn btn-primary text-white" type="submit" onclick="handleSubmit(event)">Get in touch</button>
     </div>
   </form>
 </div>
 <!-- END FORM SECTION  -->
-<div class="container heading-line mt-5"></div>
-<div class="container d-flex justify-content-center align-items-center">
+<div class="container heading-line text-center"></div>
+<div class="container email-bottom text-center"></div>
+<div class="container d-flex flex-column justify-content-center align-items-center">
   <ul class="presentation__icons d-flex pt-3">
     <li class="presentation__icons__list--style">
       <a href="https://github.com/J2ZROMERO" target="_blank">
@@ -165,7 +164,9 @@
       </a>
     </li>
   </ul>
+  <div class="container bottom-line rounded-pill"></div>
 </div>
+
 
   <script type="module" src="./assets/js/index.js"></script>
   <script src="./assets/js/bootstrap.bundle.min.js"></script>

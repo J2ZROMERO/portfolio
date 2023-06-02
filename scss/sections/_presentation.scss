@@ -16,6 +16,34 @@
     
     @include media-breakpoint-down(sm) {
         padding-top: 8rem;
+        background-image: url("../../assets/img/background/mobile/backgroundMobile.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        
+        &__greeting {
+            font-size: 3rem;
+            span {
+                color: $primary;
+            }
+        }
+
+        .presentation__speach {
+            width: 80%;
+        }
+
+        .presentation__icons {
+            @include list-inline;
+            font-size: 1.5rem;
+            &__list--style {
+                a{
+                    i:hover{
+                        color: $primary;
+                        scale: 1.5;
+                    }
+                }       
+            }
+        }
     }
     @include media-breakpoint-down(md) {
         padding-top: 6rem;
@@ -41,10 +69,6 @@
                     scale: 1.5;
                 }
             }
-    
-            
-            
-            
         }
     }
     

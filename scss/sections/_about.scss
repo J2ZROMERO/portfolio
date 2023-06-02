@@ -20,7 +20,30 @@
             color: red;
         }
     }
+
+    @include media-breakpoint-down(sm) {
+        background-image: url(/assets/img/background/desktop/aboutmeLeft.svg), url(/assets/img/background/desktop/aboutmeRight.svg);
+        background-repeat: no-repeat;
+        background-size: 9rem, 39rem;
+        padding: 5rem 0 0 0;
+        background-position: -3rem 22rem, -11rem 2rem;        
+    }
+    
+    &__resume {
+        padding-bottom: 4rem;
+        @include media-breakpoint-down(sm) {
+            h1 {
+                padding-bottom: 1rem;
+                font-weight: 700;
+                font-size: 2.7rem;
+            
+            }
+        }
+    }
 }
+
+
+
 .cards-container{
     
     @include media-breakpoint-up(lg) {

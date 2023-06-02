@@ -8,13 +8,80 @@
     min-height: 60vh;
     background-position: left 0rem bottom 2rem, left 13rem bottom 0rem, right 0rem top 0rem;  
     background-repeat: no-repeat;
-
-    @include media-breakpoint-up(lg) {
-        background-position: left 0rem bottom 5rem, left 13rem bottom 4rem, right 0rem top -2rem;
+    
+    &-form__button {
+      display: flex;
+      justify-content: end;
+      align-items: end;
     }
+
+
     @include media-breakpoint-up(sm) {
-        min-height: 60vh;
-    background-position: left 0rem bottom 2rem, left 13rem bottom 0rem, right 0rem top 0rem;  
+      min-height: 60vh;
+      background-position: left 0rem bottom 2rem, left 13rem bottom 0rem, right 0rem top 0rem;  
+      width: 100%;
+      &-title{
+        width: 50%;
+      }
+      &-form{
+          width: 50%;
+        }
+    }
+    @include media-breakpoint-up(md) {
+      background-position: left 0rem bottom 5rem, left 2rem bottom 1rem, right 0rem top -2rem;
+  }    
+    @include media-breakpoint-up(lg) {
+            background-position: left 0rem bottom 5rem, left 8rem bottom 1rem, right 0rem top -2rem;
+        }
+        @include media-breakpoint-up(xl) {
+          background-position: left 0rem bottom 5rem, left 11rem bottom 0rem, right 0rem top -2rem;
+       }
+
+       @include media-breakpoint-up(xxl) {
+        background-position: left 0rem bottom 5rem, left 14rem bottom 2rem, right 0rem top -2rem;
+     }
+    @include media-breakpoint-down(sm) {
+      background-image: url("../../assets/img/background/desktop/bar-right.svg");
+      background-position: right 0rem top 30rem;
+      background-repeat: no-repeat;
+      background-size: 5rem;
+      .form-title{
+        font-size: 2.7rem;
+        width: 85%;
+        font-weight: 700;
+      }  
+
+      &-form {
+        width: 75%;
+
+        &__button {
+          justify-content: center;
+          align-self: center;
+        }
+      }
     }
   }
-  
+
+  @include media-breakpoint-down(sm) {
+  .bottom-line {
+    content: "";
+    width: 9rem;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    height: .4rem;
+    background-color: #172B4D;
+  }
+
+  .heading-line{
+    display: none;
+  }
+}
+  @include media-breakpoint-up(sm) {
+    .bottom-line {
+      display: none;
+    }
+    .email-bottom{
+      display: none;
+    }
+    
+  }
