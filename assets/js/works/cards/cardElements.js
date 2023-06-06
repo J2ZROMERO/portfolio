@@ -28,6 +28,13 @@ const cardElements = [
     targetCard: 'math',
   },
   {
+    // Enterprise
+    imageUrl: 'assets/img/recent_works/bootSass.png',
+    cardTitle: 'Portfolio Enterprise',
+    badgesCard: ['Bootstrap 5+', 'PurgeCss', 'Sass', 'EC6', 'ESlint', 'Glightbox'],
+    targetCard: 'enterprise',
+  },
+  {
     // awesome books
     imageUrl: 'assets/img/recent_works/book.png',
     cardTitle: 'Awesome Books',

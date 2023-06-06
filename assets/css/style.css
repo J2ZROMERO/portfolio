@@ -10123,11 +10123,14 @@ textarea.form-control-lg {
 .video-container {
   min-height: 40vh;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
 }
 .video-container-close {
-  margin-right: 0.75rem;
+  width: 100%;
   margin-top: 0.75rem;
+  text-align: end;
 }
 
 .presentation {

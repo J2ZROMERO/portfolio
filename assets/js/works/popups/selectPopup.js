@@ -20,6 +20,9 @@ const selectPopup = () => {
         case 'math':
           active(targetUpdated);
           break;
+        case 'enterprise':
+          active(targetUpdated);
+          break;
         case 'book':
           active(targetUpdated);
           break;

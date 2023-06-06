@@ -18,7 +18,7 @@ class Popup {
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
           <div class="modal-header video-container">
-          <div class="position-absolute top-0 end-0 video-container-close">  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
+          <div class="video-container-close">  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
         
           <div class="modal-body overflow-hidden">
           <video class="image w-100 video-container__son" controls autoplay>

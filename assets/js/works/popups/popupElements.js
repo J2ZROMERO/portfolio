@@ -40,6 +40,16 @@ const popup = {
     source: 'https://github.com/J2ZROMERO/Math-Magicians',
     description: 'This is a React calculator that can be used for basic operations. It offers a navbar to navigate through 3 sections and to see more information about it.',
   },
+  enterprise: {
+    targetPopup: 'enterprise',
+    title: 'Portfolio Enterprise',
+    badgesPopup: ['Bootstrap 5+', 'PurgeCss', 'Sass', 'EC6', 'ESlint', 'Glightbox', 'FontAwesome', 'Google fonts'],
+    webm: 'assets/img/recent_works/bootSass.webm',
+    png: 'assets/img/recent_works/bootSass.png',
+    live: 'https://j2zromero.github.io/Portfolio/',
+    source: 'https://github.com/J2ZROMERO/portfolio-enterprise',
+    description: 'Fully responsive portfolio, uses several features that make the page very engaging: videos, events, and typography are some of them.',
+  },
   book: {
     targetPopup: 'book',
     title: 'Awesome Books',
