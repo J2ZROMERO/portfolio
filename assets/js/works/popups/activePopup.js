@@ -1,4 +1,4 @@
-import bootstrap from 'bootstrap';
+/* eslint-disable */
 import Popup from './popupModel.js';
 import popup from './popupElements.js';
 import fetchVideo from './popupExeptions.js';
