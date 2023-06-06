@@ -175,8 +175,6 @@ Feel free to check the [issues page](https://github.com/J2ZROMERO/portfolio/issu
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> I would like to thank [Patrick Muriung](https://www.youtube.com/channel/UCEtlYWZil1WbX2LoqF2qocQ) to prepare the project and sheir his knowledge.
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -192,8 +190,7 @@ Feel free to check the [issues page](https://github.com/J2ZROMERO/portfolio/issu
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](https://github.com/J2ZROMERO/portfolio/blob/dev/MIT.md) licensed.
 
-_NOTE: we recommend using the [MIT license](https://github.com/J2ZROMERO/portfolio/blob/dev/MIT.md).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

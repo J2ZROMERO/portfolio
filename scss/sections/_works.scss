@@ -25,13 +25,13 @@
 }
 
 .video-container {
-  min-height: 60vh;
+  min-height: 40vh;
   display: flex;
   flex-wrap: wrap;
-  max-height: 60vh;
 
   &-close {
     margin-right: 0.75rem;
     margin-top: 0.75rem;
   }
+  
 }
