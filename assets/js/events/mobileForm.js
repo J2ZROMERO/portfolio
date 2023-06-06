@@ -1,17 +1,14 @@
-
 const formEvent = () => {
-
-if (window.matchMedia('(max-width: 576px)').matches) {
+  if (window.matchMedia('(max-width: 576px)').matches) {
     // Execute JavaScript code for mobile devices with a width less than or equal to 480 pixels
     const form = document.querySelector('.form-form');
-    
+
     // inputs to remove
     const firstNameInput = form.querySelector('.f-name');
     const lastNameInput = form.querySelector('.s-name');
-    
-    firstNameInput.remove()
-    lastNameInput.remove()
 
+    firstNameInput.remove();
+    lastNameInput.remove();
 
     const wrapper = document.createElement('div');
     wrapper.classList.add('col-12', 'col-lg-6', 'mt-3', 'f-name');
@@ -21,8 +18,8 @@ if (window.matchMedia('(max-width: 576px)').matches) {
     </div>`;
 
     wrapper.innerHTML = fullName;
-    form.insertAdjacentElement('afterbegin',wrapper);
+    form.insertAdjacentElement('afterbegin', wrapper);
   }
-}
+};
 
 export default formEvent;

@@ -1,7 +1,7 @@
 // Exporting a method directly
 
 class Popup {
-  constructor(target,title,badges,webm,jpg,live,source,description) {
+  constructor(target, title, badges, webm, jpg, live, source, description) {
     this.target = target;
     this.title = title;
     this.badges = badges;
@@ -12,13 +12,9 @@ class Popup {
     this.description = description;
   }
 
-   createBadgetsElements = (badges) => {
-    return badges.map(badges => `<span class="badge bg-secondary mt-2 me-2">${badges}</span>`).join('');
-  }
-  
+   createBadgetsElements = (badges) => badges.map((badges) => `<span class="badge bg-secondary mt-2 me-2">${badges}</span>`).join('')
 
-  show = () => {
-    return ` <div class="modal fade" id=${this.target}  tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  show = () => ` <div class="modal fade" id=${this.target}  tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
         <div class="modal-content">
           <div class="modal-header video-container">
@@ -56,10 +52,7 @@ class Popup {
           </div>
         </div>
       </div>
-    </div>`;
-      
-  }
+    </div>`
 }
-
 
 export default Popup;
