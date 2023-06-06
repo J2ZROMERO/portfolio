@@ -5,7 +5,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 \[Portfolio bootstrap\] ](#-portfolio-bootstrap-)
+- [📖 \[Portfolio\] ](#-portfolio-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -27,21 +27,22 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Portfolio bootstrap] <a name="portfolio-bootstrap"></a>
+# 📖 [Portfolio] <a name="portfolio-"></a>
 
-> Fully responsive portfolio website using bootstrap 5.
+> Fully responsive portfolio that shows skills, projects, and share social links, a form is added if you desire to share some thoughts .
 
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> List the technologies used in this project
+> List of the technologies used in this project.
 
 <details>
   <summary>Client</summary>
   <ul>
     <li><a href="https://code.visualstudio.com/">Vs code</a></li>
+    <li><a href="https://getbootstrap.com/docs/5.0/getting-started/introduction/">Bootstrap 5+</a></li>
   </ul>
 </details>
 
@@ -60,11 +61,9 @@
 > The next list is about the things used to build the project.
 
 - **BootStrap**
-- **Google_fonts**
 - **Glightbox**
 - **Tabler icons**
 - **Purge css**
-- **Get waves.com**
 - **Many pixels.com**
 - **Font awesome solid**
 
@@ -76,7 +75,7 @@
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://j2zromero.github.io/Portfolio_bootstrap/)
+- [Live Demo Link](https://j2zromero.github.io/portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -96,10 +95,10 @@ In order to run this project you need:
 
 ### Setup
 
-Clone [this repository](https://github.com/J2ZROMERO/Portfolio_bootstrap) to your desired folder:
+Clone [this repository](https://github.com/J2ZROMERO/portfolio) to your desired folder:
 
 > If you just want to take a look quickly, make a fork and open the project in the web browser by adding ".dev" instead of ."com" in the repo link.
-- Example : https://github.com/J2ZROMERO/Portfolio_bootstrap
+- Example : https://github.dev/J2ZROMERO/portfolio
 - 
 ### Install
 
@@ -160,7 +159,7 @@ You can deploy this project using:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/J2ZROMERO/Portfolio_bootstrap/issues).
+Feel free to check the [issues page](https://github.com/J2ZROMERO/portfolio/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -195,6 +194,6 @@ Feel free to check the [issues page](https://github.com/J2ZROMERO/Portfolio_boot
 
 This project is [MIT](./LICENSE) licensed.
 
-_NOTE: we recommend using the [MIT license](https://github.com/J2ZROMERO/Portfolio_bootstrap/blob/dev/MIT.md).
+_NOTE: we recommend using the [MIT license](https://github.com/J2ZROMERO/portfolio/blob/dev/MIT.md).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
