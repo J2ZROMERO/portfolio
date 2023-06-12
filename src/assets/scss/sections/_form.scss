@@ -2,9 +2,9 @@
 
 .form {
   background-image:
-    url("../../assets/img/background/desktop/rock-left.svg"),
-    url("../../assets/img/background/desktop/short-rock.svg"),
-    url("../../assets/img/background/desktop/bar-right.svg");
+    url("/src/assets/img/background/desktop/rock-left.svg"),
+    url("/src/assets/img/background/desktop/short-rock.svg"),
+    url("/src/assets/img/background/desktop/bar-right.svg");
   min-height: 60vh;
   background-position: left 0 bottom 2rem, left 13rem bottom 0, right 0 top 0;
   background-repeat: no-repeat;
@@ -47,7 +47,7 @@
   }
 
   @include media-breakpoint-down(sm) {
-    background-image: url("../../assets/img/background/desktop/bar-right.svg");
+    background-image: url("/src/assets/img/background/desktop/bar-right.svg");
     background-position: right 0 top 30rem;
     background-repeat: no-repeat;
     background-size: 5rem;

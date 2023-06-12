@@ -1,7 +1,7 @@
 @use '../_custom.scss' as *;
 
 .about-me {
-  background-image: url(/assets/img/background/desktop/aboutmeLeft.svg), url(/assets/img/background/desktop/aboutmeRight.svg);
+  background-image: url(/src/assets/img/background/desktop/aboutmeLeft.svg), url(/src/assets/img/background/desktop/aboutmeRight.svg);
   background-repeat: no-repeat;
   background-size: 13%, 75%;
   padding: 5rem 0 0 0;
@@ -26,7 +26,7 @@
   }
 
   @include media-breakpoint-down(sm) {
-    background-image: url(/assets/img/background/desktop/aboutmeLeft.svg), url(/assets/img/background/desktop/aboutmeRight.svg);
+    background-image: url(/src/assets/img/background/desktop/aboutmeLeft.svg), url(/src/assets/img/background/desktop/aboutmeRight.svg);
     background-repeat: no-repeat;
     background-size: 9rem, 39rem;
     padding: 5rem 0 0 0;

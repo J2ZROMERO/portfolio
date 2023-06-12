@@ -9,14 +9,14 @@
   margin-top: 4rem;
   width: 100%;
   align-items: center;
-  background-image: url("../../assets/img/background/desktop/background.svg");
+  background-image: url("/dist/background.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
-
+  
   @include media-breakpoint-down(sm) {
     padding-top: 8rem;
-    background-image: url("../../assets/img/background/mobile/backgroundMobile.svg");
+    background-image: url("/dist/backgroundMobile.svg");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;

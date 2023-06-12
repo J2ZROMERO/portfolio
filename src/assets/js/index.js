@@ -1,12 +1,17 @@
+import '/node_modules/@fortawesome/fontawesome-free/css/all.css';
+import '/node_modules/@fortawesome/fontawesome-free/js/all.js';
 import showCardsWorks from './works/cards/showCardsWorks.js';
 import showCardsAbout from './about/showCardsAbout.js';
 import selectPopup from './works/popups/selectPopup.js';
 import navSlide from './events/navigation.js';
 import formEvent from './events/mobileForm.js';
-import '/src/assets/css/style.css';
-import '/src/assets/css/fontawesome.css';
+import '/assets/css/style.css';
+// import '/assets/css/fontawesome.css';
 
-require.context('/src/assets/img/background/desktop/', false, /\.(jpg|png|svg)$/)
+
+require.context('/src/assets/img/background/desktop/', false, /\.(jpg|png|svg|webm)$/)
+require.context('/src/assets/img/background/mobile/', false, /\.(jpg|png|svg|webm)$/)
+require.context('/src/assets/img/recent_works/', false, /\.(jpg|png|svg|webm)$/)
 
 //  shows all the card that contain the information of the projects
 showCardsWorks();
