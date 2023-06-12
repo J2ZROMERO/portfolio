@@ -1,7 +1,5 @@
 @use './custom' as *;
 
-// IMPORT THE COMPONENTS
-
 // IMPORT THE SECTIONS
 @use './sections/works';
 @use './sections/presentation';
@@ -11,8 +9,3 @@
 // IMPORT THE COMPONENTS
 @use './components/_typography';
 @use './components/_buttons';
-
-body,
-html {
-  // height: 100vh;
-}

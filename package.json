@@ -4,8 +4,8 @@
   "description": "<a name=\"readme-top\"></a>",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "sass --watch scss:assets/css",
-    "execute:purge": "purgecss --css assets/css/style.css --content *.html assets/js/** --output assets/css",
+    "compile:sass": "sass --watch scss:src/assets/css",
+    "execute:purge": "purgecss --css assets/css/style.css --content *.html assets/js/** --output src/assets/css",
     "build": "webpack --mode production"
   },
   "repository": {
@@ -19,8 +19,11 @@
   },
   "homepage": "https://github.com/J2ZROMERO/ortfolio#readme",
   "devDependencies": {
+    "css-loader": "^6.8.1",
     "hint": "^7.1.8",
     "sass": "^1.62.1",
+    "sass-loader": "^13.3.2",
+    "style-loader": "^3.3.3",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^21.0.0",
     "stylelint-csstree-validator": "^1.9.0",
