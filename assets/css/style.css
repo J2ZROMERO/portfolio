@@ -10168,7 +10168,7 @@ textarea.form-control-lg {
     list-style: none;
     font-size: 1.5rem;
   }
-  .presentation .presentation__icons__list--style a i:hover {
+  .presentation .presentation__icons__list--style a .social-icon:hover {
     color: #36b37e;
     scale: 1.5;
   }
