@@ -3,6 +3,10 @@ import showCardsAbout from './about/showCardsAbout.js';
 import selectPopup from './works/popups/selectPopup.js';
 import navSlide from './events/navigation.js';
 import formEvent from './events/mobileForm.js';
+import '/src/assets/css/style.css';
+import '/src/assets/css/fontawesome.css';
+
+require.context('/src/assets/img/background/desktop/', false, /\.(jpg|png|svg)$/)
 
 //  shows all the card that contain the information of the projects
 showCardsWorks();
