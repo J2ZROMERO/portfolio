@@ -43,7 +43,7 @@ const popup = {
   enterprise: {
     targetPopup: 'enterprise',
     title: 'Portfolio Enterprise',
-    badgesPopup: ['Bootstrap 5+', 'PurgeCss', 'Sass', 'EC6', 'ESlint', 'Glightbox', 'FontAwesome', 'Google fonts'],
+    badgesPopup: ['Webpack 5' ,'Bootstrap 5+', 'PurgeCss', 'Sass', 'EC6', 'ESlint', 'Glightbox', 'FontAwesome', 'Google fonts'],
     webm: 'assets/img/recent_works/bootSass.webm',
     png: 'assets/img/recent_works/bootSass.png',
     live: 'https://j2zromero.github.io/Portfolio/',

@@ -31,7 +31,7 @@ const cardElements = [
     // Enterprise
     imageUrl: 'assets/img/recent_works/bootSass.png',
     cardTitle: 'Portfolio Enterprise',
-    badgesCard: ['Bootstrap 5+', 'PurgeCss', 'Sass', 'EC6', 'ESlint', 'Glightbox'],
+    badgesCard: ['Webpack 5', 'Bootstrap 5+', 'Sass', 'PurgeCss', 'ESlint', 'Glightbox'],
     targetCard: 'enterprise',
   },
   {
@@ -45,7 +45,7 @@ const cardElements = [
     // leader board
     imageUrl: 'assets/img/recent_works/board.png',
     cardTitle: 'Leader Board',
-    badgesCard: ['Webpack', 'API', 'Github-pages', 'EC6', 'ESlint', 'LocalStorage', 'Jest'],
+    badgesCard: ['Webpack 5', 'API', 'Github-pages', 'EC6', 'ESlint', 'LocalStorage', 'Jest'],
     targetCard: 'leader',
   },
   {
