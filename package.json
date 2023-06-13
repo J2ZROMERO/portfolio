@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "compile:sass": "sass --watch src/assets/scss:assets/css",
-    "execute:purge": "purgecss --css assets/css/style.css --content *.html assets/js/** --output src/assets/css",
+    "execute:purge": "purgecss --css assets/css/style.css --content *.html *.js --output assets/css",
     "dev": "webpack serve",
     "build": "webpack"
   },

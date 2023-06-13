@@ -21,6 +21,6 @@
   "ignorePatterns": [
     "dist/",
     "build/",
-    "assets/js/bootstrap/**"
+    "src/assets/js/bootstrap/**"
   ]
 }
