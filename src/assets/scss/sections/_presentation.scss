@@ -13,7 +13,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
-  
+
   @include media-breakpoint-down(sm) {
     padding-top: 8rem;
     background-image: url("/dist/backgroundMobile.svg");
@@ -80,6 +80,3 @@
     }
   }
 }
-
-
-
