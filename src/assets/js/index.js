@@ -6,7 +6,6 @@ import selectPopup from "./works/popups/selectPopup.js";
 import navSlide from "./events/navigation.js";
 import formEvent from "./events/mobileForm.js";
 import "/assets/css/style.css";
-import "/src/assets/js/bootstrap/bootstrap.bundle.min.js";
 
 require.context(
   "/src/assets/img/background/desktop/",
