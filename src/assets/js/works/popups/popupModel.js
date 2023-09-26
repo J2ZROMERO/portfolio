@@ -21,7 +21,7 @@ class Popup {
           <div class="video-container-close">  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
         
           <div class="modal-body overflow-hidden">
-          <video class="image w-100 video-container__son" controls autoplay>
+          <video class="image w-100 video-container__son" controls autoplay muted>
           <source src=${this.webm} type="video/webm">
           <source src=$this.mp4} type="video/mp4">
           <img src=${this.jpg} alt="Imagen de muestra">
