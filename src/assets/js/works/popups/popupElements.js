@@ -1,5 +1,15 @@
 // budget popup
 const popup = {
+  quote: {
+    targetPopup: 'quote',
+    title: 'Quotes App',
+    badgesPopup: ['Rails 7', 'OmniAuth', 'Redis', 'SMTP', 'RSpec', 'Device', 'Render'],
+    webm: './quote.webm',
+    png: './quote.png',
+    live: 'https://quote-editor-mu2f.onrender.com',
+    source: 'https://github.com/J2ZROMERO/quote_editor.git',
+    description: 'Easily create and manage detailed quotes with our intuitive Quote Editor. Organize projects by adding categories, and within each category, specify dates, item details (title, cost, quantity), and brief descriptions. Simplify your quoting process with our powerful app.',
+  },
   budget: {
     targetPopup: 'budget',
     title: 'Budget App',

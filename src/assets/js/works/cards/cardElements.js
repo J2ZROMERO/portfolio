@@ -1,5 +1,11 @@
 const cardElements = [
   {
+    imageUrl: './quote.png',
+    cardTitle: 'Quotes App',
+    badgesCard: ['Rails 7', 'OmniAuth', 'Redis', 'SMTP', 'RSpec', 'Device', 'Render'],
+    targetCard: 'quote',
+  },
+  {
     // budget card
     imageUrl: './budget.png',
     cardTitle: 'Budget App',
