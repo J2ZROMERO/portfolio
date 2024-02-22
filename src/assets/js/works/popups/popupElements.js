@@ -46,7 +46,7 @@ const popup = {
     badgesPopup: ['Webpack', 'EC6', 'React-Routes', 'Netlify', 'Linters', 'State&props', 'Jest', 'Big-js dependency', 'React'],
     webm: './math.webm',
     png: './math.png',
-    live: 'https://deploy-preview-6--sage-gaufre-cb8c5e.netlify.app/',
+    live: 'https://sage-gaufre-cb8c5e.netlify.app/',
     source: 'https://github.com/J2ZROMERO/Math-Magicians',
     description: 'This is a React calculator that can be used for basic operations. It offers a navbar to navigate through 3 sections and to see more information about it.',
   },
