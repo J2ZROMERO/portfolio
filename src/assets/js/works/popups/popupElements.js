@@ -56,7 +56,7 @@ const popup = {
     badgesPopup: ['Webpack 5', 'Bootstrap 5+', 'PurgeCss', 'Sass', 'EC6', 'ESlint', 'Glightbox', 'FontAwesome', 'Google fonts'],
     webm: './bootSass.webm',
     png: './bootSass.png',
-    live: 'https://j2zromero.github.io/Portfolio/',
+    live: 'https://j2zromero.github.io/portfolio-enterprise/dist/',
     source: 'https://github.com/J2ZROMERO/portfolio-enterprise',
     description: 'Fully responsive portfolio, uses several features that make the page very engaging: videos, events, and typography are some of them.',
   },

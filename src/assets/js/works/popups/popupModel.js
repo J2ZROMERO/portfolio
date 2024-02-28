@@ -22,8 +22,7 @@ class Popup {
         
           <div class="modal-body overflow-hidden">
           <video class="image w-100 video-container__son" controls autoplay muted>
-          <source src=${this.webm} type="video/webm">
-          <source src=$this.mp4} type="video/mp4">
+          <source src=${this.webm} type="video/webm" muted>
           <img src=${this.jpg} alt="Imagen de muestra">
         </video>
         </div>
