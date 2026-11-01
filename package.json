@@ -7,7 +7,7 @@
     "compile:sass": "sass --watch src/assets/scss:assets/css",
     "execute:purge": "purgecss --css assets/css/style.css --content *.html *.js --output assets/css",
     "dev": "webpack serve",
-    "build": "webpack"
+    "build": "webpack --mode production"
   },
 
   "repository": {
@@ -26,6 +26,7 @@
     "css-loader": "^6.8.1",
     "hint": "^7.1.8",
     "html-webpack-plugin": "^5.5.3",
+    "mini-css-extract-plugin": "2.9.2",
     "sass": "^1.62.1",
     "sass-loader": "^13.3.2",
     "style-loader": "^3.3.3",
