@@ -1,19 +1,19 @@
 const cardElements = [
-    // PDF reader
+  // PDF reader
   {
     imageUrl: './pdf.png',
     cardTitle: 'PDF Reader',
-    badgesCard: ['Google-Scripts','Google sheets','Node', 'pdfjs-dist', 'Netlify'],
+    badgesCard: ['Google-Scripts', 'Google sheets', 'Node', 'pdfjs-dist', 'Netlify'],
     targetCard: 'pdf',
-  },  
-  // shpping 
+  },
+  // shpping
   {
     imageUrl: './shop.png',
     cardTitle: 'Shopping App',
-    badgesCard: ['React', 'Redux', '.env', 'Render', 'Bootstrap','EC6'],
+    badgesCard: ['React', 'Redux', '.env', 'Render', 'Bootstrap', 'EC6'],
     targetCard: 'shop',
   },
-    // quotes
+  // quotes
   {
     imageUrl: './quote.png',
     cardTitle: 'Quotes App',

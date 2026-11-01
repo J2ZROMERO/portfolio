@@ -3,7 +3,7 @@ const popup = {
   pdf: {
     targetPopup: 'pdf',
     title: 'Google Scripts PDF Reader',
-    badgesPopup: ['Google-Scripts','Google sheets','Node', 'pdfjs-dist', 'Netlify'],
+    badgesPopup: ['Google-Scripts', 'Google sheets', 'Node', 'pdfjs-dist', 'Netlify'],
     webm: './pdf.webm',
     png: './pdf.png',
     live: 'https://googlescripts--jade-cranachan-df4264.netlify.app/public/',
@@ -13,7 +13,7 @@ const popup = {
   shop: {
     targetPopup: 'shop',
     title: 'Shopping App',
-    badgesPopup: ['React', 'Redux', '.env', 'Render', 'Bootstrap','EC6'],
+    badgesPopup: ['React', 'Redux', '.env', 'Render', 'Bootstrap', 'EC6'],
     webm: './shop.webm',
     png: './shop.png',
     live: 'https://master--stunning-creponne-ed1796.netlify.app/',
